@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/log"
+        android:title="Статистика"
+        android:icon="@drawable/log_ico"/>
+    <item
+        android:id="@+id/UpdateTime"
+        android:title="Время обновления"
+        android:icon="@drawable/refresh_ico"/>
+    <item
+        android:id="@+id/connect"
+        android:icon="@drawable/main_ico"
+        android:title="Управление приложением" />
+    <item
+        android:id="@+id/sites"
+        android:title="Сайты"
+        android:icon="@drawable/sites_ico"/>
+
+    <item
+        android:id="@+id/Options"
+        android:title="Прочие настройки"
+        android:icon="@drawable/options_ico"
+        />
+</menu>

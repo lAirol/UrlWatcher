@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/site_image"
+        android:layout_width="31dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/web" />
+
+    <TextView
+        android:id="@+id/site_name"
+        android:layout_width="265dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/site_image"
+        app:layout_constraintStart_toEndOf="@+id/site_image"
+        app:layout_constraintTop_toTopOf="@+id/site_image"
+        app:layout_constraintVertical_bias="0.333"
+        tools:text="SiteName" />
+
+    <ImageView
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        app:srcCompat="@android:drawable/ic_delete"
+        tools:layout_editor_absoluteX="230dp"
+        app:layout_constraintBottom_toBottomOf="@+id/site_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/site_name" />
+
+        <!--    <Button-->
+<!--        android:id="@+id/close_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="44dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:textAlignment="center"-->
+<!--        app:icon="@android:drawable/ic_delete"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/site_name"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/site_name" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
